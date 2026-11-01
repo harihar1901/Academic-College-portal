@@ -24,7 +24,10 @@ export const LiveToast: React.FC<{
     let eventSource: EventSource | null = null;
 
     try {
-      eventSource = new EventSource('http://localhost:5000/api/stream');
+      const streamUrl = import.meta.env.VITE_API_BASE_URL 
+        ? `${import.meta.env.VITE_API_BASE_URL}/stream` 
+        : '/api/stream';
+      eventSource = new EventSource(streamUrl);
 
       eventSource.addEventListener('BOOKING_APPROVED', (e: any) => {
         try {

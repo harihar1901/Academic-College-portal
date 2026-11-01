@@ -1,8 +1,15 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
 import { EventEmitter } from 'events';
 import { initMongo } from './db/database.js';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+const distPath = path.join(__dirname, '..', 'dist');
 
 import authRoutes from './routes/auth.js';
 import resourceRoutes from './routes/resources.js';
@@ -66,6 +73,29 @@ app.get('/api/health', (req, res) => {
     timestamp: new Date().toISOString()
   });
 });
+
+// Serve frontend static build assets in production
+if (fs.existsSync(distPath)) {
+  app.use(express.static(distPath));
+
+  // SPA fallback for client-side routing
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api')) {
+      return next();
+    }
+    res.sendFile(path.join(distPath, 'index.html'));
+  });
+} else {
+  app.get('/', (req, res) => {
+    res.send(`
+      <div style="font-family: system-ui, sans-serif; text-align: center; padding: 60px 20px;">
+        <h2>🎓 Academic Portal Backend is Live!</h2>
+        <p>The backend API is running on Render, but the frontend build (<code>dist/</code>) was not found.</p>
+        <p>Ensure Render's <strong>Build Command</strong> is set to: <code>npm install && npm run build</code></p>
+      </div>
+    `);
+  });
+}
 
 // Start Server & Database
 async function startServer() {
