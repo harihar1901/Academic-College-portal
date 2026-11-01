@@ -1,0 +1,23 @@
+[
+  {
+    "id": "book-1790266843703-ev8e",
+    "userId": "usr-student-1",
+    "userName": "Harihar Velram",
+    "userRole": "student",
+    "userEmail": "hari@campus.edu",
+    "resourceId": "res-auditorium",
+    "resourceName": "Grand Campus Auditorium",
+    "resourceType": "auditorium",
+    "date": "2026-09-28",
+    "startTime": "14:00",
+    "endTime": "16:00",
+    "purpose": "ai workshop",
+    "expectedParticipants": 80,
+    "requirements": [
+      "Projector"
+    ],
+    "status": "confirmed",
+    "submittedAt": "2026-09-24 16:20",
+    "reviewedBy": "Prof. Arthur Pendelton"
+  }
+]

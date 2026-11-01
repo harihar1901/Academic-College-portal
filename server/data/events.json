@@ -1,0 +1,40 @@
+[
+  {
+    "id": "evt-1",
+    "title": "AI & Large Language Models Workshop",
+    "description": "An intensive hands-on technical workshop exploring transformer architectures, prompt engineering, agentic workflows, and deploying on-premise open-weights models.",
+    "category": "Workshop",
+    "department": "Department of Computing & AI",
+    "date": "2026-09-28",
+    "startTime": "10:00 AM",
+    "endTime": "01:00 PM",
+    "venueId": "res-seminar-a",
+    "venueName": "Seminar Hall A",
+    "organizer": "Dr. Sarah Vance",
+    "speaker": "Dr. Elena Rostova (Deep Learning Research Lead)",
+    "capacity": 150,
+    "registeredCount": 0,
+    "registeredUsers": [],
+    "bannerUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?w=800&auto=format&fit=crop&q=80",
+    "isFeatured": true
+  },
+  {
+    "id": "evt-2",
+    "title": "National Quantum Computing Symposium",
+    "description": "Distinguished speakers from academia and quantum tech industries will discuss quantum algorithms, qubit coherence, quantum cryptography, and near-term NISQ devices.",
+    "category": "Symposium",
+    "department": "Department of Physics & Electronics",
+    "date": "2026-10-02",
+    "startTime": "09:00 AM",
+    "endTime": "04:30 PM",
+    "venueId": "res-auditorium",
+    "venueName": "Grand Campus Auditorium",
+    "organizer": "Prof. Arthur Pendelton",
+    "speaker": "Prof. Marcus Chen, FRS",
+    "capacity": 500,
+    "registeredCount": 0,
+    "registeredUsers": [],
+    "bannerUrl": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&auto=format&fit=crop&q=80",
+    "isFeatured": true
+  }
+]

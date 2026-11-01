@@ -1,0 +1,11 @@
+[
+  {
+    "id": "notif-1790266843704",
+    "userId": "usr-student-1",
+    "title": "Booking Request Submitted",
+    "message": "Your request for Grand Campus Auditorium has been routed for administrative approval.",
+    "type": "info",
+    "timestamp": "Just now",
+    "read": false
+  }
+]

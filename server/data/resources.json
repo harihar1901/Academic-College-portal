@@ -1,0 +1,105 @@
+[
+  {
+    "id": "res-auditorium",
+    "name": "Grand Campus Auditorium",
+    "type": "auditorium",
+    "capacity": 500,
+    "location": "Central Campus Block, Ground Floor",
+    "facilities": [
+      "4K Cinema Projector",
+      "Stage Lighting",
+      "Surround Sound",
+      "High-speed Wi-Fi",
+      "Central Air Conditioning",
+      "8 Wireless Microphones"
+    ],
+    "isAvailable": true,
+    "imageUrl": "https://images.unsplash.com/photo-1544531585-9847b68c8c86?w=800&auto=format&fit=crop&q=80",
+    "description": "Premier campus auditorium for large symposia, convocations, national conferences, and cultural summits with tiered acoustic seating."
+  },
+  {
+    "id": "res-seminar-a",
+    "name": "Seminar Hall A",
+    "type": "seminar_hall",
+    "capacity": 150,
+    "location": "Academic Block 2, 2nd Floor (Room 204)",
+    "facilities": [
+      "High-Lumen Projector",
+      "Interactive Smart Board",
+      "Podium Mic",
+      "Central Air Conditioning",
+      "Dual HD Displays"
+    ],
+    "isAvailable": true,
+    "imageUrl": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&auto=format&fit=crop&q=80",
+    "description": "Medium-large amphitheater classroom equipped with high-fidelity AV gear, suitable for departmental seminars, workshops, and guest lectures."
+  },
+  {
+    "id": "res-seminar-b",
+    "name": "Seminar Hall B",
+    "type": "seminar_hall",
+    "capacity": 100,
+    "location": "Science & Innovation Wing, 1st Floor",
+    "facilities": [
+      "Laser Projector",
+      "Surround Microphone Array",
+      "Whiteboard",
+      "Wi-Fi 6",
+      "Air Conditioning"
+    ],
+    "isAvailable": true,
+    "imageUrl": "https://images.unsplash.com/photo-1577495508048-b635879837f1?w=800&auto=format&fit=crop&q=80",
+    "description": "Modern collaborative lecture hall configured with ergonomic swivel seating, excellent for interactive workshops and defense presentations."
+  },
+  {
+    "id": "res-turing-lab",
+    "name": "Alan Turing Computing Lab",
+    "type": "computer_lab",
+    "capacity": 65,
+    "location": "IT & Computer Science Tower, 3rd Floor",
+    "facilities": [
+      "65 High-End GPU Workstations",
+      "Dual Monitors",
+      "Gigabit Fiber LAN",
+      "Overhead Projector",
+      "UPS Backup"
+    ],
+    "isAvailable": true,
+    "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?w=800&auto=format&fit=crop&q=80",
+    "description": "Specialized computing facility equipped with RTX GPUs, deep learning frameworks, and synchronized workstations for hackathons and coding labs."
+  },
+  {
+    "id": "res-conf-suite",
+    "name": "Executive Conference Suite",
+    "type": "conference_room",
+    "capacity": 35,
+    "location": "Senate Administration Building, 4th Floor",
+    "facilities": [
+      "Telepresence Video Bar",
+      "4K Smart Board",
+      "Omnidirectional Mics",
+      "Executive Leather Seating",
+      "Coffee Station"
+    ],
+    "isAvailable": true,
+    "imageUrl": "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&auto=format&fit=crop&q=80",
+    "description": "High-level committee room designed for academic council meetings, thesis defense panels, and international research consultations."
+  },
+  {
+    "id": "res-portable-projector",
+    "name": "4K Ultra-Portable Projector Kit",
+    "type": "equipment",
+    "capacity": 200,
+    "location": "AV Media Dispatch Center, Room 102",
+    "facilities": [
+      "4500 Lumens Laser",
+      "Wireless HDMI Transmitter",
+      "Tripod Stand",
+      "Bluetooth Speaker Pair",
+      "Carry Case"
+    ],
+    "isAvailable": true,
+    "imageUrl": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?w=800&auto=format&fit=crop&q=80",
+    "description": "Deployable ultra-bright laser projection equipment available for outdoor workshops, satellite classrooms, or poster showcase sessions."
+  }
+]

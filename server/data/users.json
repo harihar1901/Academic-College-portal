@@ -1,0 +1,32 @@
+[
+  {
+    "id": "usr-student-1",
+    "name": "Harihar Velram",
+    "email": "hari@campus.edu",
+    "password": "student123",
+    "role": "student",
+    "studentId": "CS2026-042",
+    "department": "Computer Science & Engineering",
+    "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "usr-faculty-1",
+    "name": "Dr. Sarah Vance",
+    "email": "svance@campus.edu",
+    "password": "faculty123",
+    "role": "faculty",
+    "staffId": "FAC-AI-108",
+    "department": "Department of Computing & AI",
+    "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "usr-admin-1",
+    "name": "Prof. Arthur Pendelton",
+    "email": "admin@campus.edu",
+    "password": "admin123",
+    "role": "admin",
+    "adminKey": "admin2026",
+    "department": "Campus Resource Administration",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80"
+  }
+]
